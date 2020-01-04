@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial;
+}
+
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn {
+  height: 32px;
+  min-width: 64px;
+  border-radius: 8px;
+  border: 3px solid #ccc;
+  background-color: #eee;
+  font-size: 16px;
+}
+
+.todo-list {
+  border-radius: 8px;
+  max-width: 600px;
+  background-color: coral;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.actions {
+  display: flex;
+}
+
+.task-input {
+  height: 32px;
+  margin-right: 16px;
+  border-radius: 8px;
+  width: 496px;
+  border: 3px solid #ccc;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: wheat;
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.list__item_done {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.list__item-checkbox {
+  margin: 0;
+  margin-right: 8px;
+}
+
+.delete-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  margin-left: auto;
+  text-decoration: none;
+  padding: 0;
+  transform: rotate(45deg);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.delete-btn::before {
+  content: "+";
+}
+
+/*# sourceMappingURL=style.css.map */
