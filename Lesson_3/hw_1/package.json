@@ -22,7 +22,7 @@
         "copy:scripts": "cp -R ./src/scripts ./dist/scripts",
         "clean": "rm -rf ./dist",
         "build:scripts": "babel ./src --out-dir=./dist",
-        "build": "npm-run-all clean build:styles copy:*",
+        "build": "npm-run-all clean build:styles copy:*"
     },
     "keywords": [],
     "author": "",
