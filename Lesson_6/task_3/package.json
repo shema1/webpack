@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
-        "copy:html": "copyfiles  ./src/index.html ./dist",
+        "copy:html": "copyfiles -f ./src/index.html ./dist",
         "build:scripts": "webpack -p",
         "clean": "rimraf -rf ./dist",
         "build": "npm-run-all clean build:* copy:*",
